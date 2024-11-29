@@ -10,7 +10,12 @@ import suitcase from "../images/suitcase.png";
 import email from "../images/gmail-icon.png";
 import img from "../images/image.png";
 import about from "../images/info.png";
+import books from "../images/books.png";
+import skill from "../images/skill.png";
+import leetcode from "../images/leetcode.png";
+
 import AppsIcon from '@mui/icons-material/Apps';
+import { Link } from "react-router-dom";
 
 const BoxMenuDrop = () => {
   const [isActive, setActive] = useState(false); // Set state to false initially
@@ -52,24 +57,31 @@ const BoxMenuDrop = () => {
       >
         <div className="drop-item">
           <div className="drop-link">
-            <img src={logo} alt="" />
-            <p> Search </p>
+            <img src={suitcase} alt="" />
+            <p> Resume </p>
           </div>
-          <div className="drop-link">
+          
+          <Link className="drop-link" to="/about">
             <img src={about} alt="" />
             <p> About </p>
-          </div>
+          </Link>
           <div className="drop-link">
-            <img src={suitcase} alt="" />
-            <p> Works </p>
+            <img src={books} alt="" />
+            <p> Education </p>
+          </div>
+          <a className="drop-link" href="#">
+            <img src={skill} alt="" />
+            <p> Skills </p>
+          </a>
+         
+          
+          <div className="drop-link">
+            <img src={img} alt="" />
+            <p> Projects </p>
           </div>
           <div className="drop-link">
             <img src={news} alt="" />
-            <p> Blog </p>
-          </div>
-          <div className="drop-link">
-            <img src={img} alt="" />
-            <p> Images </p>
+            <p> Volunteer Work </p>
           </div>
           <a className="drop-link" href="mailto:aditi03prasad@gmail.com">
             <img src={email} alt="" />
@@ -82,6 +94,10 @@ const BoxMenuDrop = () => {
           <a className="drop-link" href="https://www.linkedin.com/in/aditiiprasad/">
             <img src={li} alt="" />
             <p> LinkedIn </p>
+          </a>
+          <a className="drop-link" href="https://leetcode.com/u/aditiiprasad/">
+            <img src={leetcode} alt="" />
+            <p> Leetcode </p>
           </a>
         </div>
       </div>

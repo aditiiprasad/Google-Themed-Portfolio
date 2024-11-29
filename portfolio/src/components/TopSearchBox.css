@@ -1,0 +1,51 @@
+/* Container for the search box */
+.topsearchbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  /* Style for the search box */
+  .topsearchbox {
+    position: relative;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 5px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Search input field styling */
+  .search-input {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  /* Style for search icon */
+  .fa-search-icon {
+    position: absolute;
+    left: 15px;
+    color: #aaa;
+    font-size: 20px;
+  }
+  
+  /* Style for clear icon */
+  .clear-icon {
+    display: none;
+    position: absolute;
+    right: 50px;
+    color: #aaa;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Style for search button */

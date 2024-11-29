@@ -7,12 +7,15 @@ import {
   Routes
 } from 'react-router-dom';
 
+import About from './Pages/About';
+
+
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        
+        <Route path="/about" element={<About />} />
         {/* <Route path="/all" element={<AllResults />} />
         <Route path="/about" element={<About />} />
         <Route path="/writing" element={<Writing />} />
