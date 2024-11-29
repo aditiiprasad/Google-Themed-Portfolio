@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../components/logo";
 import BoxMenuDrop from "../components/boxmenudrop";
-import ProfileMenuDrop from "../components/profilemenudrop";
+import ProfileMenuDrop from "../components/ProfileMenuDrop";
 import SearchBox from "../components/SearchBox";
 import "./home.css";
 
@@ -18,14 +18,14 @@ const Home = () => {
   return (
     <div className="home main">
       <div className="top-menu">
-        <span className="top-menu-item no-show-mobile">
+         <span className="top-menu-item no-show-mobile">
           <a href="mailto:aditi03prasad0@gmail.com">Email</a>
         </span>
         <span className="top-menu-item no-show-mobile">
           <a href="https://github.com/aditiiprasad">GitHub</a>
         </span>
         <BoxMenuDrop />
-        <ProfileMenuDrop />
+      <ProfileMenuDrop/>
       </div>
 
       <div className="flex-center">
