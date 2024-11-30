@@ -11,6 +11,9 @@ import {
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Education from "./Pages/Education";
+import Skills from "./Pages/Skills";
+import Projects from "./Pages/Projects";
+import ImagesPage from "./Pages/ImagesPage";
 
 // import works from "./pages/works";
 // import Home from "./pages/home";
@@ -31,14 +34,16 @@ class App extends Component {
           {/* <Route path="/all" component={AllResults} /> */}
         <Route path="/about" element={<About/>} />
            <Route path="/education" element={<Education />}  />
-{/* 
+ 
             <Route path="/skills" element={<Skills />}  />
-            <Route path="/projects" element={<Projects />}  />
-            <Route path="/volunteer" element={<Volunteer />}  />
+          <Route path="/work" element={<Projects />}  />
+          <Route path="/images" element={<ImagesPage/>} />
+             {/* <Route path="/volunteer" element={<Volunteer />}  />
+
       
       //     <Route path="/social" component={social} />
      
-      //     <Route path="/images" component={ImagesPage} />
+      //     
      
       //     <Route component={NotFound} />
       */}

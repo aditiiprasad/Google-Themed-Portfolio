@@ -61,18 +61,97 @@ export const Content = [
       excerpt: `Kindergarden (LKG)`
     },
     
-     
+    {
+      category: "skills",
+      link: `${window.location.origin}/skills#schools`,
+      name: "Languages ",
+      excerpt: `Java , JavaScript , C`
+    },
+    {
+      category: "skills",
+      link: `${window.location.origin}/skills#schools`,
+      name: "Full Stack Development",
+      excerpt: `HTML, CSS, Bootstrap, Tailwind CSS, React, Node.js, Express.js, MongoDB, SQL`
+    },
+    {
+      category: "skills",
+      link: `${window.location.origin}/skills#schools`,
+      name: "Tools and Technologies",
+      excerpt: `Git, GitHub, Postman`
+    },
+    {
+      category: "skills",
+      link: `${window.location.origin}/skills#schools`,
+      name: "Other Skills",
+      excerpt: `Data Structures and Algorithms(DSA), Object Oriented Programming and Design Patterns`
+    },
 
 
 
     {
-      category: "works",
-      link: "https://github.com/enjeck/TutCode",
-      name: "TutCode - site to simultaneously  view tutorials and code",
-      excerpt: `A website where people can simultaneously code and watch/read
-      tutorials. It's a more convenient way to learn and practice
-      how to code (with HTML, CSS and JavaScript) on the same page`
+      category: "projects",
+      link: "https://code-canvas-eight.vercel.app/",
+      name: "Code Canvas- Markdown Editor with Live Preview",
+      excerpt: ` A markdown editor with live preview, word count, and reading time calculation, boosting content creation efficiency
+by 30%. Tested by 15+ users to ensure seamless functionality and a user-friendly experience.`
     },
+
+    {
+      category: "projects",
+      link: "https://tube-timer.netlify.app/",
+      name: "Tube Timer- YouTube playlist Length Calculator ",
+      excerpt: ` Engineered a playlist length calculator using the MERN stack, and Tailwind CSS processing URLs with 90%
+accuracy.Integrated the YouTube API for dynamic data fetching, boosting engagement by 20%.`
+    },
+    {
+      category: "projects",
+      link: "https://github.com/aditiiprasad/GupShup",
+      name: "GupShup- Real-time Chat application(Ongoing Project) ",
+      excerpt: ` Developing a secure chat app with real-time messaging, typing indicators, and group chats. Leveraging Socket.io for 100% live communication and encrypted MongoDB storage.Tools & Technologies: MERN Stack, Socket.io, Chakra UI, Tailwind CSS.`
+    },
+  
+    {
+      category: "projects",
+      link: "https://portfolio-aditi-one.vercel.app/",
+      name: "Retro Gaming themed portfolio ",
+      excerpt: `Retro Gaming themed portfolio using react and vanilla css.`
+    },
+    {
+      category: "projects",
+      link: "https://github.com/aditiiprasad/GameHub",
+      name: "Game Hub",
+      excerpt: `Welcome to GameHub, your go-to site for fun and addictive mini-games to pass the time.  `
+    },
+    {
+      category: "projects",
+      link: "https://github.com/aditiiprasad/CuCo",
+      name: "Cuco ",
+      excerpt: `Currency Converter Web App`
+    },
+    {
+      category: "projects",
+      link: "https://passwordgenerator-weld-one.vercel.app/",
+      name: "Password Generator ",
+      excerpt: ` An app that generates random, secure passwords based on selected criteria like length and inclusion of special characters.What I Learned: I learned how to use React to handle user input, manage state, and implement logic for generating randomized password strings.`
+    },
+    {
+      category: "projects",
+      link: "https://react-practice-projects-phi.vercel.app/",
+      name: "Background Changer",
+      excerpt: `A simple app that changes the background color of the page with a button click.What I Learned: I learned how to manage component state with useState and dynamically update CSS styles in React based on user actions.
+
+`
+    },
+    {
+      category: "projects",
+      link: "https://github.com/aditiiprasad/Amazon-clone",
+      name: "Amazon Clone ",
+      excerpt: ` Welcome to my Amazon Clone project! This web application is a front-end clone of the popular e-commerce platform, Amazon. Built using only HTML and CSS, the project aims to replicate the core visual elements and layout of Amazon, including a user-friendly interface, product listings, and a shopping cart. The clone project serves as a practical demonstration of my skills in front-end development and my ability to create visually appealing and responsive web pages. Through this project, I've gained hands-on experience in designing and structuring web content. Feel free to explore the code and provide feedback!
+
+`
+    },
+
+
     {
       category: "works",
       link: `${window.location.origin}`,

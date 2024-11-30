@@ -14,6 +14,7 @@ import about from "../images/info.png";
 import books from "../images/books.png";
 import skill from "../images/skill.png";
 import leetcode from "../images/leetcode.png";
+import proj from "../images/proj.png"
 
 const BoxMenuDrop = () => {
   const [isActive, setActive] = useState("false");
@@ -75,19 +76,26 @@ const BoxMenuDrop = () => {
             />
             <p> Education </p>
           </Link >
-          <Link  className="drop-link" to="/blog">
+          <Link  className="drop-link" to="/skills">
             <img
               src={skill}
               alt=""
             />
             <p> Skills</p>
           </Link >
+          <Link  className="drop-link" to="/projects">
+            <img
+              src={proj}
+              alt=""
+            />
+            <p> Projects</p>
+          </Link >
           <Link  className="drop-link" to="/images">
             <img
               src={img}
               alt=""
             />
-            <p> Projects</p>
+            <p> images</p>
           </Link >
           <Link  className="drop-link" to="/volunteer">
             <img
