@@ -14,6 +14,7 @@ import Education from "./Pages/Education";
 import Skills from "./Pages/Skills";
 import Projects from "./Pages/Projects";
 import ImagesPage from "./Pages/ImagesPage";
+import ProjectsPage from "./Pages/ProjectsPage";
 
 // import works from "./pages/works";
 // import Home from "./pages/home";
@@ -36,7 +37,8 @@ class App extends Component {
            <Route path="/education" element={<Education />}  />
  
             <Route path="/skills" element={<Skills />}  />
-          <Route path="/work" element={<Projects />}  />
+          <Route path="/works" element={<Projects />}  />
+          <Route path="/projects" element={<ProjectsPage />}  />
           <Route path="/images" element={<ImagesPage/>} />
              {/* <Route path="/volunteer" element={<Volunteer />}  />
 
