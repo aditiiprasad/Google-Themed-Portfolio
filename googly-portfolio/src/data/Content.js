@@ -17,6 +17,54 @@ export const Content = [
       name: "An overview of my technical skills and interests",
       excerpt: `Java , JavaScript , C,HTML, CSS, Bootstrap, Tailwind CSS, React, Node.js, Express.js, MongoDB, SQL,Git, GitHub, Postman. I'm eager to work with others to craft engaging web experiences.`
     },
+
+    {
+      category: "education",
+      link: `${window.location.origin}/education#schools`,
+      name: "Birla Institute of Technology, Mesra",
+      excerpt: `Bachelor of Technology - BTech in Computer Science (2023-2027)`
+    },
+    {
+      category: "education",
+      link: `${window.location.origin}/education#schools`,
+      name: "Kendriya Vidyalaya No2 AFS Jodhpur , Rajasthan",
+      excerpt: `High School (10th to 12th standard)`
+    },
+    {
+      category: "education",
+      link: `${window.location.origin}/education#schools`,
+      name: "Kendriya Vidyalaya Sulur , Coimbatore , Tamil Nadu",
+      excerpt: `Middle School (7th to 9th standard) `
+    },
+    {
+      category: "education",
+      link: `${window.location.origin}/education#schools`,
+      name: "Kendriya Vidyalaya No2 Sohna Road , Gurgaon",
+      excerpt: `School (3rd to 7th standard)`
+    },
+    {
+      category: "education",
+      link: `${window.location.origin}/education#schools`,
+      name: "Kendriya Vidyalaya No5 AFS Jorhat, Assam",
+      excerpt: `School (1st to 3rd standard)`
+    },
+    {
+      category: "education",
+      link: `${window.location.origin}/education#schools`,
+      name: "Air Force School Jorhat, Jorhat, Assam",
+      excerpt: `Kindergarden (UKG)`
+    },
+    {
+      category: "education",
+      link: `${window.location.origin}/education#schools`,
+      name: "Air Force School Murgeshpallya, Bangalore, Karnataka",
+      excerpt: `Kindergarden (LKG)`
+    },
+    
+     
+
+
+
     {
       category: "works",
       link: "https://github.com/enjeck/TutCode",

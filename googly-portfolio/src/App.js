@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+import Education from "./Pages/Education";
 
 // import works from "./pages/works";
 // import Home from "./pages/home";
@@ -29,14 +30,18 @@ class App extends Component {
         <Route path="/" element={<Home />} />
           {/* <Route path="/all" component={AllResults} /> */}
         <Route path="/about" element={<About/>} />
-      {/* //     <Route path="/writing" component={writing} />
-      //     <Route path="/works" component={works} />
+           <Route path="/education" element={<Education />}  />
+{/* 
+            <Route path="/skills" element={<Skills />}  />
+            <Route path="/projects" element={<Projects />}  />
+            <Route path="/volunteer" element={<Volunteer />}  />
+      
       //     <Route path="/social" component={social} />
-      //     <Route path="/projects" component={ProjectsPage} />
-      //     <Route path="/images" component={ImagesPage} />
-      //     <Route path="/blog" component={BlogPage} />
-      //     <Route component={NotFound} /> */}
      
+      //     <Route path="/images" component={ImagesPage} />
+     
+      //     <Route component={NotFound} />
+      */}
       </Routes>
       </Router>
       

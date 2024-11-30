@@ -68,7 +68,7 @@ const BoxMenuDrop = () => {
             />
             <p> About </p>
           </Link >
-          <Link  className="drop-link" to="/works">
+          <Link  className="drop-link" to="/education">
             <img
               src={books}
               alt=""

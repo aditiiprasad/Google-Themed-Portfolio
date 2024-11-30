@@ -14,15 +14,15 @@ import MobileSearch from "./MobileSearch";
 const TopSearchBox = () => {
   const options = [
     {
-      name: "everything about you",
-      value: "all"
+      name: "Projects",
+      value: "projects"
     },
     {
-      name: "about",
+      name: "About",
       value: "about"
     },
-    { name: "works", value: "works" },
-    { name: "writing", value: "writing" },
+    { name: "Education", value: "education" },
+    { name: "Skills", value: "skills" },
     { name: "social", value: "social" }
   ];
 
