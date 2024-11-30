@@ -54,14 +54,14 @@ const BoxMenuDrop = () => {
             : "dropdown-content-cont dropdown-show"
         }
       >
-        <div className="drop-item">
-          <Link className="drop-link" to="/">
+        <div className="drop-item" >
+          <a className="drop-link" href="https://drive.google.com/file/d/1CJ6YLyVmCZLCR8R2wHQ8BbuL__rieN7p/view">
             <img
               src={suitcase}
               alt=""
             />
             <p> Resume </p>
-          </Link>
+          </a>
           <Link  className="drop-link" to="/about">
             <img
               src={about}

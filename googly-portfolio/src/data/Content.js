@@ -3,19 +3,37 @@ export const Content = [
       category: "about",
       link: `${window.location.origin}/about#me`,
       name: "I am Aditi",
-      excerpt: ` A BTech Computer Science student at BIT Mesra with a passion for web development, especially in the MERN stack. I love creating and collaborating on projects, embracing new challenges along the way. `
+      excerpt: ` a BTech Computer Science student at BIT Mesra with a passion for web development, especially in the MERN stack. I love creating and collaborating on projects, embracing new challenges along the way. `
     },
     {
       category: "about",
-      link: `${window.location.origin}/about#skills`,
-      name: "Diverse Schooling",
+      link: `${window.location.origin}/education`,
+      name: " Diverse Schooling",
       excerpt: `My diverse schooling across India has helped me adapt and broaden my perspective. `
     },
     {
       category: "about",
-      link: `${window.location.origin}/about#skills`,
-      name: "An overview of my technical skills and interests",
+      link: `${window.location.origin}/skills`,
+      name: "Full Stack Software Developer",
       excerpt: `Java , JavaScript , C,HTML, CSS, Bootstrap, Tailwind CSS, React, Node.js, Express.js, MongoDB, SQL,Git, GitHub, Postman. I'm eager to work with others to craft engaging web experiences.`
+    },
+    {
+      category: "about",
+      link: `${window.location.origin}/projects`,
+      name: "Projects",
+      excerpt: `I work on web development projects, mainly focusing on the MERN stack to create dynamic and interactive web applications. I enjoy building seamless user experiences and collaborating on innovative, scalable solutions that meet user needs.`
+    },
+    {
+      category: "about",
+      link: `${window.location.origin}/extracurriculars`,
+      name: "Extra curriculars",
+      excerpt: `I volunteer with the National Service Scheme, tutoring over 50 students in  Jharkhand, to bridge the learning gap. As a member of Aakshar, BIT Mesra’s Literary Society, I’ve led content strategies and hosted major college events, engaging 500+ students.`
+    },
+    {
+      category: "about",
+      link: `${window.location.origin}/social`,
+      name: "Socials",
+      excerpt: `I actively engage on LinkedIn, sharing insights and connecting with professionals in the tech community. On GitHub, I contribute to open-source projects, showcasing my skills and collaborating on innovative solutions.`
     },
 
     {

@@ -11,6 +11,7 @@ import SearchBox from "../components/SearchBox";
 import BoxMenuDrop from "../components/BoxMenuDrop";
 import ProfileMenuDrop from "../components/ProfileMenuDrop";
 import Footer from "../components/Footer";
+import FilterMenu from "../components/FilterMenu";
 
 function Home() {
     const navigate = useNavigate();
@@ -80,6 +81,7 @@ function Home() {
   
     return (
       <div className="home main">
+      
         <div className="top-menu">
           <span className="top-menu-item no-show-mobile">
             {" "}
@@ -92,6 +94,8 @@ function Home() {
           <BoxMenuDrop />
           <ProfileMenuDrop />
         </div>
+        
+       
        <div className="flex-center">
         <div className="search-container">
           <div className="frontpage-logo">
@@ -99,12 +103,12 @@ function Home() {
           </div>
             <SearchBox options={options} />
           <div className="search-btns">
-            <input
-              className="search-btn sw"
-              type="button"
-              value="Search Website"
-              onClick={searchWebsite}
-            />
+          <input
+  className="search-btn sw"
+  type="button"
+  value="Get Started"
+  onClick={() => navigate('/about')}
+/>
             <input
               className="search-btn ifl"
               type="button"
@@ -114,7 +118,7 @@ function Home() {
           </div>
         </div>
         </div>
-  
+       
         <Footer/>
       </div>
     );
