@@ -97,12 +97,12 @@ const BoxMenuDrop = () => {
             />
             <p> images</p>
           </Link >
-          <Link  className="drop-link" to="/volunteer">
+          <Link  className="drop-link" to="/extracurriculars">
             <img
               src={news}
               alt=""
             />
-            <p> Volunteer Work</p>
+            <p> Extra Curriculars</p>
           </Link >
           <a className="drop-link" href="mailto:aditi03prasad@gmail.com">
             <img

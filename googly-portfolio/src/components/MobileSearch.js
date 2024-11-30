@@ -13,15 +13,15 @@ const MobileSearch = () => {
 
   const options = [
     {
-      name: "everything about you",
-      value: "all"
+      name: "Projects",
+      value: "projects"
     },
     {
       name: "about",
       value: "about"
     },
-    { name: "works", value: "works" },
-    { name: "writing", value: "writing" },
+    { name: "extra curriculars", value: "extracurriculars" },
+    { name: "education", value: "education" },
     { name: "images", value: "images" },
     { name: "social", value: "social" }
   ];

@@ -18,16 +18,17 @@ function Home() {
     // These values will be shown in the search dropdown
     // The name property is the actual text and the value property is the link
     const options = [
-      {
-        name: "everything about you",
-        value: "all"
-      },
+    
       {
         name: "about",
         value: "about"
       },
+      {
+        name: "education",
+        value: "education"
+      },
       { name: "works", value: "works" },
-      { name: "writing", value: "writing" },
+      { name: "Extra Curriculars", value: "extracurriculars" },
       { name: "images", value: "images" },
       { name: "social", value: "social" }
     ];

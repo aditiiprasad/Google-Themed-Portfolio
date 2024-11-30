@@ -16,6 +16,8 @@ import Projects from "./Pages/Projects";
 import ImagesPage from "./Pages/ImagesPage";
 import ProjectsPage from "./Pages/ProjectsPage";
 import Social from "./Pages/Social";
+import NotFound from "./Pages/NotFound";
+import Volunteer from "./Pages/Volunteer";
 
 // import works from "./pages/works";
 // import Home from "./pages/home";
@@ -42,15 +44,12 @@ class App extends Component {
           <Route path="/projects" element={<ProjectsPage />}  />
           <Route path="/images" element={<ImagesPage/>} />
           <Route path="/social" element={<Social/>} />
-             {/* <Route path="/volunteer" element={<Volunteer />}  />
+          <Route  element={<NotFound/>} />
+          <Route path="/extraCurriculars" element={<Volunteer />}  />
 
       
-      //     
+        
      
-      //     
-     
-      //     <Route component={NotFound} />
-      */}
       </Routes>
       </Router>
       

@@ -7,6 +7,7 @@ import {
   faNewspaper,
   faMapMarkerAlt,
   faBriefcase
+  
 } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 
@@ -18,11 +19,11 @@ const FilterMenu = () => {
       <div className="filter-menu-items">
         <NavLink
           className="filter-menu-item"
-          to="/all"
+          to="/about"
           activeClassName="item-active"
         >
           <FontAwesomeIcon className="icon" icon={faSearch} />
-          <span> All </span>
+          <span> About </span>
         </NavLink>
         <NavLink
           to="/projects"
@@ -32,6 +33,17 @@ const FilterMenu = () => {
           <FontAwesomeIcon className="icon" icon={faBriefcase} />
           <span> Projects </span>
         </NavLink>
+
+        <NavLink
+          className="filter-menu-item"
+          exact
+          to="/education"
+          activeClassName="item-active"
+        >
+          <FontAwesomeIcon className="icon" icon={faNewspaper} />
+          <span> Education </span>
+        </NavLink>
+
         <NavLink
           className="filter-menu-item fmi"
           to="/images"
@@ -42,21 +54,21 @@ const FilterMenu = () => {
         </NavLink>
         <NavLink
           className="filter-menu-item fmi"
-          to="/blog"
+          to="/extracurriculars"
           activeClassName="item-active"
         >
           <FontAwesomeIcon className="icon" icon={faNewspaper} />
-          <span> News </span>
+          <span> Extra Curriculars </span>
         </NavLink>
-        {/* <NavLink
+        <NavLink
           className="filter-menu-item"
           exact
-          to="/maps"
+          to="/social"
           activeClassName="item-active"
         >
           <FontAwesomeIcon className="icon" icon={faMapMarkerAlt} />
-          <span> Maps </span>
-        </NavLink> */}
+          <span> Socials </span>
+        </NavLink>
       </div>
     </div>
   );
