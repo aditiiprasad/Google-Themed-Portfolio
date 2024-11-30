@@ -82,11 +82,11 @@ function Home() {
         <div className="top-menu">
           <span className="top-menu-item no-show-mobile">
             {" "}
-            <a href="mailto:enjeckc1e0@gmail.com"> Email </a>
+            <a href="mailto:aditi03prasad@gmail.com"> Email </a>
           </span>
           <span className="top-menu-item no-show-mobile">
             {" "}
-            <a href="https://github.com/enjeck"> GitHub </a>
+            <a href="https://github.com/aditiiprasad"> GitHub </a>
           </span>
           <BoxMenuDrop />
           <ProfileMenuDrop />
