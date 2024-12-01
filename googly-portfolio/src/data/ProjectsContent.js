@@ -1,11 +1,6 @@
-import tutcode from "../images/tutcode.png";
-import enjeck from "../images/enjeck.png";
 
-import gfolio from "../images/gfolio.png";
-import jpg2svg from "../images/jpg2svg.png";
-import gg from "../images/geo-guess.png";
-import blobby from "../images/blobby.png";
-import cav from "../images/CryptographyVisualizer.png"
+
+
 import placeholder from "../images/bg1.png";
 import codecanvas from "../images/codecanvas.png"
 import tt from "../images/tubetimer.png"
@@ -46,7 +41,7 @@ accuracy.Integrated the YouTube API for dynamic data fetching, boosting engageme
   {
     link: `https://google-themed-portfolio.vercel.app/`,
     img: gad,
-    name: "Google themed Portfolio)",
+    name: "Google themed Portfolio",
     excerpt: `A personal website simulating the Google Search platform. Developed with
     HTML, CSS and React`,
     tools: "React · CSS"

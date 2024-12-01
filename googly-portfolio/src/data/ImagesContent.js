@@ -1,11 +1,6 @@
-import tutcode from "../images/tutcode.png";
-import enjeck from "../images/enjeck.png";
+
 import me from "../images/me.jpg"
-import gfolio from "../images/gfolio.png";
-import jpg2svg from "../images/jpg2svg.png";
-import gg from "../images/geo-guess.png";
-import blobby from "../images/blobby.png";
-import cav from "../images/CryptographyVisualizer.png"
+
 import li from "../images/linkedIn-icon.png";
 import gh from "../images/github-icon.png";
 import email from "../images/gmail-icon.png";
